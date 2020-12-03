@@ -1,0 +1,60 @@
+body {
+	margin: 50px;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+
+table {
+	width: 300px;
+}
+
+#fForm{
+	text-align: center;
+
+}
+
+.dados {
+	border: solid 1px #0000DD;
+	margin: 20px;
+	padding: 8px;
+}
+
+.formBotao{
+	margin: 10px 10px;
+	padding: 10px 10px;
+	width: 100%;
+	cursor: pointer;
+	border: none;
+}
+
+#bGravar{
+	background-color: #00AA00;
+	color: white;
+}
+
+#bLimpar{
+	background-color: #FFFF00;
+	color: black;
+}
+
+#bGravar:hover{
+	background-color: #009900;
+	cursor: pointer;
+}
+
+#bLimpar:hover{
+	background-color: #AAAA00;
+	cursor: pointer;
+}
+
+input{
+	border: none;
+}
+
+#fNome, #fSobrenome, #fCPF, #RG {
+	width: 50%;
+}
+
+#fEmail, #fEndereco{
+	width: 100%;
+}

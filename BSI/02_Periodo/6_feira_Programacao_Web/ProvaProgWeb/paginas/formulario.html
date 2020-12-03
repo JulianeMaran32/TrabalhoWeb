@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+	<head>
+
+		<title>Formulário</title>
+
+		<!-- Exibe a página HTML corretamente -->
+		<meta charset="utf-8"> 
+
+		<!-- Estilo CSS -->
+		<link rel="stylesheet" type="text/css" href="../css/formulario.css">
+		
+		<!-- Arquivo JQuery 3.5.1 -->
+		<script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
+		
+		<!-- Função JS -->
+		<script type="text/javascript" src="../js/funcao_formulario.js"></script>
+		
+	</head>
+	
+	<body>
+
+		<table id="tformulario"> <!-- tabela id formulario -->
+			
+			<form id="formulario"> <!-- form id formulario -->
+				
+				<!-- type="text" - é um campo de entrada de texto
+					placeholder="" - dica do que deve ser escrito no campo
+					required - campo obrigatório antes do envio do formulário
+					autofocus - quando recarregar a página o cursor vai para este campo
+				-->
+
+				<!-- rowspan -> mescla linhas -->
+				<!-- colspan -> mescla colunas -->
+
+				<tr>
+					<td colspan="3" class="dados" id="fForm"> Formulário </td>
+				</tr>
+
+				<tr> <!-- Linha: nome e sobrenome -->
+					<td class="dados">
+						<input type="text" name="nome"  
+						placeholder="Nome" id="fNome">
+					</td>
+					<td colspan="2" class="dados">
+						<input type="text" name="sobrenome"
+						placeholder="Sobrenome" id="fSobrenome">
+					</td>
+				</tr>
+
+				<!-- type="email" - é um campo de entrada de email -->
+				<tr> <!-- Linha: email -->
+					<td colspan="3" class="dados" >
+						<input type="email" name="email" 
+						placeholder="email@exemplo.com"
+						id="fEmail">
+					</td>
+				</tr>
+
+				<tr> <!-- Linha: endereço -->
+					<td colspan="3" class="dados">
+						<input type="text" name="endereco"  
+						placeholder="Endereço"
+						id="fEndereco">
+					</td>
+				</tr>
+
+				<!-- type="number" - é um campo de entrada de numero -->
+				<tr> <!-- Linha: idade / altura / peso -->
+					<td class="dados">
+						<input type="number" name="idade" 
+						placeholder="Idade" id="fIdade">
+					</td>
+					<td class="dados">
+						<input type="number" name="altura" 
+						placeholder="Altura" id="fAltura">
+					</td>
+					<td class="dados">
+						<input type="number" name="peso"
+						placeholder="Peso" id="fPeso">
+					</td>
+				</tr>
+
+				<tr> <!-- Linha: CPF / RG -->
+					<td colspan="1" class="dados">
+						<input type="number" name="cpf"  
+						placeholder="CPF" id="fCPF">
+					</td>
+					<td colspan="2" class="dados">
+						<input type="number" name="rg"  
+						placeholder="RG" id="fRG">
+					</td>
+					<td></td>
+				</tr>
+
+				<!-- type="submit" envia dados do formulário -->
+				<tr> <!-- Linha: GRAVAR -->
+					<td colspan="3">
+						<button type="submit" id="bGravar" class="formBotao">
+							GRAVAR
+						</button>
+					</td>
+					<td></td>
+					<td></td>
+				</tr>
+
+				<tr> <!-- Linha: LIMPAR -->
+					<td colspan="3">
+						<button type="submit" id="bLimpar" class="formBotao">
+							LIMPAR
+						</button>
+					</td>
+					
+				</tr>
+
+
+
+			</form> <!-- FIM form id formulario -->
+
+		</table> <!-- FIM tabela id formulario -->
+
+	</body>
+
+</html>

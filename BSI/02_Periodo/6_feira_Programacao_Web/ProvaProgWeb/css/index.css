@@ -1,0 +1,46 @@
+body {
+	margin: 50px;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+h3 {
+	text-align: center;
+	display: 3;
+	color: #cc0099;
+}
+
+.bPagina {
+	background-color: white;
+	color: #cc0099;
+	border-color: #cc0099;
+	border-radius: 12px;
+	padding: 15px 30px;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* 
+width = largura
+height = altura
+background = cor de fundo
+text-align = alinhando o texto
+border = borda
+
+links
+a
+a:link
+a:visited
+a:houver
+
+*/
